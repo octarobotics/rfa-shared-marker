@@ -75,7 +75,7 @@ It provides the functions:
 - A window will open to show captured images. The capturing will be suspended and resumed. See the source code for the detail.
 
 ## Camera calibration
-- ['camera_calibrator.py'](src/camera_calibrator.py) is the script of camera calibration.
+- [`camera_calibrator.py`](src/camera_calibrator.py) is the script of camera calibration.
 - Print `./resource/charuco.jpg` on A4 sheet to fit the page.
 - Run `python src/camera_calibrator.py <device_settings yaml file>` and a window will open.
 - Put the ChArUco board in front of the camera.
