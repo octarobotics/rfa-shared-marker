@@ -1,0 +1,20 @@
+# UVC camera settings
+camera:
+  bus_index: 0
+  resolution: "1280x720"
+  path: 0
+
+  # This demo requires the camera calibration in advance.
+  # The camera parameters will be stored in the param_dir.
+  param_dir: "./camera_param/1280-720"
+
+# RPLiDAR settings
+lidar:
+  path: "/dev/cu.usbserial-21240"
+  model: "S2L"
+
+  # This demo assumes,
+  #  X-axis+ (0 deg) is aligned to the camera axis.
+  #  Z-axis+ is alignted to the camera upward direction.
+  # The offset is to calculate Shared Marker normal.
+  camera_origin_from_lidar_origin_x: 0.09 # [m]

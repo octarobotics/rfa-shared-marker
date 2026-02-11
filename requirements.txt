@@ -1,0 +1,7 @@
+opencv-python         # ArUco marker
+opencv-contrib-python # ArUco marker
+pyrplidar             # Driver for SLAMTEC RPLiDAR
+pyqtgraph             # Visualization
+pyyaml                # for configuration
+packaging             # Detection of OpenCV version
+PyQt5 
